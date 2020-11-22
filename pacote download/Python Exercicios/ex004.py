@@ -1,0 +1,7 @@
+n=input('Digite algo para iniciar a analise: ')
+print('Verificando se \033[1;31m{}\033[m está em maiusculo: \033[1;32m\033[m'.format(n),n.isupper())
+print('Verificando se  \033[1;31m{}\033[m é um alfanumeríco: \033[1;32m \033[m'.format(n),n.isalpha())
+print('Verificando se  \033[1;31m{}\033[m é um digito: \033[1;32m\033[m'.format(n),n.isdigit())
+print('Verificando se  \033[1;31m{}\033[m é um decimal: \033[1;32m \033[m'.format(n),n.isdecimal())
+print('Verifcando o tipo de  \033[1;31m{}\033[m \033[1;32m\033[m'.format(n),type(n))
+print('Verificando se  \033[1;31m{}\033[m está em minusculo: \033[1;32m\033[m'.format(n),n.islower())
