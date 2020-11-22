@@ -1,2 +1,2 @@
-# Meus exercicios de Python_2020
-Meus exercicios de Python como iniciante. 
+# ExerciciosPython_2020
+Meus exercicios como iniciante de Python.
